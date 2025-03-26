@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#EEEEEE"
+    android:padding="5dp">
+
+    <ImageButton
+        android:id="@+id/btn_bold"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/format_bold"
+        android:src="@drawable/ic_format_bold" />
+
+    <ImageButton
+        android:id="@+id/btn_italic"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/format_italic"
+        android:src="@drawable/ic_format_italic" />
+
+    <ImageButton
+        android:id="@+id/btn_underline"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/format_underline"
+        android:src="@drawable/ic_format_underline" />
+
+    <ImageButton
+        android:id="@+id/btn_strikethrough"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/format_strikethrough"
+        android:src="@drawable/ic_format_strikethrough" />
+
+    <ImageButton
+        android:id="@+id/btn_text_color"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/format_text_color"
+        android:src="@drawable/ic_format_color_text" />
+
+    <ImageButton
+        android:id="@+id/btn_highlight"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/format_highlight"
+        android:src="@drawable/ic_format_color_fill" />
+</LinearLayout> 
