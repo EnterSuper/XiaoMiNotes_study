@@ -46,5 +46,7 @@ public class UserDbHelper extends SQLiteOpenHelper {
         // 简单起见，更新数据库时直接删除旧表并创建新表
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_USERS);
         onCreate(db);
+
+
     }
 } 

@@ -31,6 +31,8 @@ public class UserManager {
     // 注册新用户
     public boolean registerUser(String username, String password, String email) {
         SQLiteDatabase db = dbHelper.getWritableDatabase();
+
+
         
         // 检查用户名是否已存在
         Cursor cursor = db.query(
