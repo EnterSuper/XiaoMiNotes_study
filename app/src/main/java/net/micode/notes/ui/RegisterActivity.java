@@ -80,6 +80,8 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
             return;
         }
 
+
+
         // 执行注册
         if (userManager.registerUser(username, password, email)) {
             Toast.makeText(this, "注册成功，请登录", Toast.LENGTH_SHORT).show();

@@ -20,6 +20,8 @@ public class LoginActivity extends Activity implements View.OnClickListener {
     private TextView tvRegister;
     private UserManager userManager;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
